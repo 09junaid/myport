@@ -1,4 +1,4 @@
-import Reactc,{ useState } from "react";
+import React,{ useState } from "react";
 import logicImage from "../assets/images/logic.png";
 import pic from "../assets/images/mypic.png";
 import portfolio from "../assets/images/portfolio.png";
