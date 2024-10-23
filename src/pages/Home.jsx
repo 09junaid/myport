@@ -2,6 +2,7 @@ import React,{ useState } from "react";
 import logicImage from "../assets/images/logic.png";
 import pic from "../assets/images/mypic.png";
 import portfolio from "../assets/images/portfolio.png";
+
 export default function Home() {
   const skills = [
     {
@@ -212,7 +213,7 @@ export default function Home() {
             Crafting responsive and user-friendly web experiences with modern
             technologies.
           </p>
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <a
               href="./my_cv.pdf"
               className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors duration-300 ease-in-out flex items-center justify-center space-x-2"
@@ -221,7 +222,7 @@ export default function Home() {
               Download CV
             </a>
 
-          </div>
+          </div> */}
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-64 h-64">
