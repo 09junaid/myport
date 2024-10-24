@@ -65,26 +65,7 @@ export default function Home() {
         </svg>
       ),
     },
-    {
-      name: "Tailwind CSS",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6 text-white"
-        >
-          {/* Replace with a Tailwind CSS icon SVG */}
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M12 1.5C5.885 1.5 1.5 5.885 1.5 12S5.885 22.5 12 22.5 22.5 17.115 22.5 12 17.115 1.5 12 1.5z"
-          />
-        </svg>
-      ),
-    },
+   
     {
       name: "JavaScript",
       svg: (
@@ -158,7 +139,7 @@ export default function Home() {
       link: "https://by-junaid-portfolio.netlify.app", // Replace with your project link
     },
     {
-      title: "Real-estate Dashboard",
+      title: "Real-estate Website",
       description:
         "An Logic Builder platform with some of the most popular features like Tdodo list, Calculator, and Random Password Generator.",
       image: logicImage, // Replace with your project image paths
